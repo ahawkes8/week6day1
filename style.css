@@ -1,0 +1,51 @@
+body {
+  font-family: Helvetica;
+  background-color: #d3d3d3;
+  color: black;
+}
+
+.shrink-container {
+  width: 800px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 0px 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.container > p {
+  flex: 33.33%;
+}
+
+#clickMe {
+  display: inline-block;
+  padding: 10px;
+  font-family: Helvetica;
+  border-radius: 3px;
+  border: 1px solid;
+}
+#clickMe:hover{
+    cursor: pointer;
+}
+
+.notInStock{
+    display:none;
+}
+
+.darkModeBackground{
+    background-color: black;
+    color:white;
+}
+.darkModeContainers{
+    background-color: #5A5A5A;
+    color: white;
+}
+.darkModeClickMe{
+    border-color: white;
+}
